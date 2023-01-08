@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
-.custom-font {
+body {
   font-family: "Roboto Slab", serif;
 }
 .header-background {
   background-color: #f0c543;
   text-decoration: none;
+  color: black;
 }
 .header-logoimg {
   width: 4%;
   margin-left: 1.5em;
+  margin-right: 1em;
 }
