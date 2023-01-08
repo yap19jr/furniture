@@ -12,3 +12,10 @@ body {
   margin-left: 1.5em;
   margin-right: 1em;
 }
+.banner-imgs {
+  width: 1138px;
+  height: 580px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
