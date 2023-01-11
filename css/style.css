@@ -84,3 +84,27 @@ body {
   align-items: center;
   height: 100%;
 }
+.collection {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.flex-collection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.flex-collection > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.btnexplore {
+  width: 100%;
+  border: #5c5b5b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
