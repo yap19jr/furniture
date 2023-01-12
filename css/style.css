@@ -10,6 +10,9 @@ body {
   color: black;
   display: block;
 }
+.header-margin {
+  margin-top: 20px;
+}
 .header-logoimg {
   width: 4%;
   margin-left: 1.5em;
@@ -94,6 +97,9 @@ body {
   justify-content: center;
   text-align: center;
 }
+.flex-collection button:hover {
+  opacity: 0.7;
+}
 .flex-collection > div {
   background-color: #f1f1f1;
   width: 300px;
@@ -103,6 +109,37 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .btnexplore {
+  width: 100%;
+  border: #5c5b5b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.flex-event {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.flex-event > div {
+  background-color: #f1f1f1;
+  width: 600px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flex-event a {
+  width: 100%;
+  border: #5c5b5b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.event-image {
+  margin-top: 30px;
+}
+.flex-event button:hover {
+  opacity: 0.7;
+}
+.btn-info {
   width: 100%;
   border: #5c5b5b;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
