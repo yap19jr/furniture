@@ -42,7 +42,7 @@ body {
   margin-right: 100px;
 }
 .flex-right {
-  justify-content: end;
+  justify-content: flex-end;
 }
 .banner-imgs {
   display: block;
