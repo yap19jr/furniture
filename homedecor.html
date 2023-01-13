@@ -26,59 +26,36 @@
   </head>
   <body>
     <!-- header section -->
-    <section>
-      <div class="container-fluid header-background backcolor">
-        <header class="d-flex justify-content-center py-3 border-bottom">
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top backcolor">
+        <div class="container-fluid">
           <img
             src="./img/logo/Kassainc-Logo-1.svg"
             alt="logo"
             class="header-logoimg"
           /><a
             href="index.html"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
           >
-            <span class="fs-4">Kassa Furniture</span>
-          </a>
-          <div class="d-flex header-margin">
-            <form class="w-100 me-3" role="search">
-              <input
-                type="search"
-                class="form-control"
-                placeholder="Search..."
-                aria-label="Search"
-              />
+          <a class="navbar-brand" href="index.html">Kassa - Furniture</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-right" id="navbarCollapse">
+            <form class="d-flex margin-right" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success-custom" type="submit">Search</button>
             </form>
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+              <li class="nav-item"><a href="product.html" class="nav-link"><b>Shop</b></a></li>
+              <li class="nav-item"><a href="aboutus.html" class="nav-link">About Us</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
           </div>
-          <ul class="nav nav-pills header-margin">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a
-                  class="btn btn-secondary dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Shop
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Furniture</a></li>
-                  <li><a class="dropdown-item" href="#">Home Decor</a></li>
-                  <li><a class="dropdown-item" href="#">Lighting</a></li>
-                  <li><a class="dropdown-item" href="#">Sale</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-          </ul>
-        </header>
-      </div>
-    </section>
-
-    <!-- Footer -->
+        </div>
+      </nav>
+    </header>
+     <!-- Footer -->
     <footer class="text-center text-lg-start backcolor text-muted">
       <!-- Section: Social media -->
       <section

@@ -10,13 +10,39 @@ body {
   color: black;
   display: block;
 }
-.header-margin {
-  margin-top: 20px;
+.header-style {
+  color: #685841;
 }
+.nav-link:hover {
+  color: #fff;
+}
+.btn-success-custom {
+  --bs-btn-color: #685841;
+  --bs-btn-border-color: #685841;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #685841;
+  --bs-btn-hover-border-color: #685841;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #685841;
+  --bs-btn-active-border-color: #685841;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #685841;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #685841;
+  --bs-gradient: none;
+}
+
 .header-logoimg {
   width: 4%;
   margin-left: 1.5em;
   margin-right: 1em;
+}
+.margin-right {
+  margin-right: 100px;
+}
+.flex-right {
+  justify-content: end;
 }
 .banner-imgs {
   display: block;
@@ -144,4 +170,11 @@ body {
   border: #5c5b5b;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
+}
+/* about us */
+.au-img {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-top: 3%;
 }
