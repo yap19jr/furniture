@@ -45,6 +45,7 @@ body {
   justify-content: flex-end;
 }
 .banner-imgs {
+  width: 100%;
   display: block;
   padding-left: 0;
   padding-right: 0;
@@ -147,7 +148,7 @@ body {
 }
 .flex-event > div {
   background-color: #f1f1f1;
-  width: 600px;
+  width: 400px;
   margin: 10px;
   text-align: center;
   font-size: 18px;
